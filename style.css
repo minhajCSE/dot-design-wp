@@ -1,0 +1,421 @@
+/*
+  Template Name: Dot Design WP Theme
+  Template URI: http:\\www.kabiraj.com
+  Author Name: Minhajul Islam
+  Author URI: http:\\www.minhajul.me
+  Description: This is a very simple WP theme
+  Version: 1.2.1.0
+
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+*{
+    margin:0;
+	padding:0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Droid Sans', sans-serif;
+    font-size:18px;
+}
+p{
+    font-family: 'Droid Sans', sans-serif;
+}
+a{
+    font-family: 'Droid Sans', sans-serif;
+}
+body { 
+    font-family: 'Droid Sans', sans-serif;
+	font-size:16px;
+	line-height:22px;
+	color:#666;
+	background:url(images/bg_8.png) repeat scroll #262626;
+}
+.fix{
+    overflow:hidden;
+}
+.floatleft{
+    float:left;
+}
+.floatright{
+    float:right;
+}
+.structure{
+    width:960px;
+	margin:0 auto;
+}
+   /*  start header_area     */
+.header_area{}
+.header{
+    margin-bottom:25px;
+}
+.logo{
+    margin-top:25px;
+}
+.logo img{}
+
+   /*  start mainmenu_area     */
+
+.mainmenu_area{}
+.mainmenu{
+    background:#383738;
+    margin-bottom:5px;
+}
+#nav{
+    margin:0;
+	padding:0;
+	list-style:none;
+}
+#nav li{
+    float:left;
+	margin-left:2px;
+}
+#nav li:first-child{
+    margin-left:0px;
+}
+#nav li a{
+    display:block;
+	text-decoration:none;
+	padding: 12px 21px;
+	color:#E0E0E0;
+	text-transform:uppercase;
+}
+#nav li a:hover,.current_page_item{
+    background:#0196EC;
+	-webkit-transition: all 0.6s 0s ease;
+	-moz-transition: all 0.6s 0s ease;
+	-o-transition: all 0.6s 0s ease;
+	-ms-transition: all 0.6s 0s ease;
+	transition: all 0.6s 0s ease;
+}
+input[type="text1"]{
+	border:1px solid #464646;
+	background:#333333;
+	color:#666;
+	width:210px;
+	height:25px;
+	font-weight:normal;
+	margin: 9px 6px 6px 0px ;
+	font-family: 'Droid Sans', sans-serif;
+	text-align:right;
+	padding: 1px 8px 0 3px;
+}
+
+
+/*  start  slider_area  */
+	
+.slider_area{
+    background:#fff;
+}
+.slider{
+    margin-top: 35px;
+}
+
+/*  start  slider-bottom_area  */
+
+.slider-bottom_area{
+    background:#fff;
+}
+.slider-bottom{
+    border-bottom:1px solid #999999;
+}
+.slider-bottom p{
+    margin:30px 13px;
+	color:#666666;
+	text-align:center;
+	font-size:24px;
+	line-height:25px;
+	font-weight:normal;
+	font-family: 'Lobster', cursive;
+}
+.slider-bottom p span{
+    color:#0099ff;
+	font-family: 'Lobster', cursive;
+}
+/*  start  promo_area */
+
+.promo_area{
+    background:#fff; 
+}
+.promo{
+    border-bottom:1px solid #999999;
+	padding-bottom:30px;
+	margin-top:40px;
+}
+.single-promo,.single-promo1,.single-promo2,.single-promo3{
+    width:220px;
+	margin-right:20px;
+}
+#no-margin,#no-margin-1{
+    margin-right:0px;
+}
+.single-promo h2{
+    background:url(images/eye.png) no-repeat scroll 0 0;
+    padding-left:40px;
+    padding-bottom:20px;
+    font-size:18px;
+    color:#666666;
+}
+.single-promo1 h2{
+    background:url(images/book.png) no-repeat scroll 0 0;
+    padding-left:40px;
+    padding-bottom:20px;
+    font-size:18px;
+    color:#666666;
+}
+.single-promo2 h2{
+    background:url(images/mail.png) no-repeat scroll 0 0;
+    padding-left:40px;
+    padding-bottom:20px;
+    font-size:18px;
+    color:#666666;
+}
+.single-promo3 h2{
+    background:url(images/globe.png) no-repeat scroll 0 0;
+    padding-left:40px;
+    padding-bottom:20px;
+    font-size:18px;
+    color:#666666;
+}
+.single-promo p,.single-promo1 p,.single-promo2 p,.single-promo3 p{
+    font-size:12px;
+	line-height:26px;
+	font-weight:normal;
+}
+.single-promo a,.single-promo1 a,.single-promo2 a,.single-promo3 a{
+    background: none repeat scroll 0 0 #0099CC;
+    border: 1px solid #666666;
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 5;
+    margin-left: 130px;
+    padding: 12px 25px;
+    text-decoration: none;
+	
+ }
+.single-promo a:hover{}
+
+/*  start  featured_area */
+
+.featured_area{
+    background:#fff;
+}
+.featured{
+    margin-bottom:40px;
+	margin-top:40px;
+ }
+.featured-promo{
+    width:295px;
+	margin-right:20px;
+	border:1px solid #cccccc;
+	padding:4px;
+}
+
+ /*  start footer-top_area     */
+  
+.footer-top_area{
+     background:url(images/bbfbfbfbfb.png) repeat;
+}
+.footer-top{
+    border-bottom:1px solid #999999;
+	border-top: 6px solid #019FFA;
+}
+.footer-top-promo{
+    width:205px;
+	margin-right:40px;
+	margin-bottom:30px;
+}
+.footer-top-promo h2,.footer-top-promo1 h2,.footer-top-promo2 h2,.footer-top-promo3 h2{
+    font-size:20px;
+	color:#ffffff;
+	font-weight:bold;
+	margin-bottom:30px;
+	margin-top:20px;
+}
+.footer-top-promo ul{
+    margin:0;
+    padding:0;
+}
+.footer-top-promo ul li{
+    background: url("images/plus.png") no-repeat scroll 0 center transparent;
+	border-bottom:1px solid #777777;
+	padding:5px 0px;
+}
+.footer-top-promo ul li a{
+    font-family: 'Droid Sans', sans-serif;
+    font-weight:normal;
+	color:#939393;
+    font-size:11px;
+    text-decoration:none;
+	margin-left:10px;
+}
+.footer-top-promo ul li a:hover{}
+.footer-top-promo1{
+    width:220px;
+	margin-right:40px;
+}
+.footer-top-promo1 p{
+    background:#333333;
+	color:#999999;
+	font-size:11px;
+    border:1px solid #333333;
+	padding:12px 20px 12px 10px;
+	margin-top:35px;
+}
+.footer-top-promo1 p span{
+    font-weight:bold;
+	color:#939393;
+ }
+.footer-top-promo1  a{
+    color:#cccccc;
+    text-decoration:none;
+    font-size:11px;
+}
+.footer-top-promo1 img{
+    margin-left:10px;;
+}
+.footer-top-promo1  h3{
+    color: #999999;
+    font-size: 11px;
+    margin-left: 40px;
+    margin-top: -17px;
+	font-weight:normal;
+}
+.footer-top-promo2{
+    width:190px;
+	margin-right:40px;
+}
+.footer-top-promo2 p{
+    font-weight:normal;
+	font-size:12px;
+	color:#999999;
+	padding:3px;
+}
+.footer-top-promo3{
+    width:220px;
+ }
+label {
+	cursor: pointer;
+	
+}
+input[type="text"]{
+	border:1px solid #464646;
+	background:#333333;
+	color:#999;
+	width:210px;
+	height:25px;
+	font-weight:normal;
+	margin: 6px 0px;
+	font-family: 'Droid Sans', sans-serif;
+}
+input[type="submit"]{
+    background:#029DF6;
+	border:1px solid #029DF6;
+    color:#fff;
+	width:95px;
+	height:25px;
+	margin-top:12px;
+	font-size:11px;
+	font-weight:normal;
+	font-family: 'Droid Sans', sans-serif;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+span{
+    color:#029DF6;
+    font-family: 'Droid Sans', sans-serif;
+
+}
+
+ /*  single-post-area     */
+.single-post-area{
+    background:#fff;
+} 
+.single-post{} 
+.content{} 
+.content h2{
+    margin-top: 31px;
+    margin-bottom: 10px;
+} 
+.content p{
+    margin-bottom: 10px;
+} 
+ 
+ /*  start footer_area     */
+ 
+.footer_area{
+     background:url(images/bbfbfbfbfb.png) repeat;
+}
+.footer{
+     margin-top: 12px;
+}
+.footer-lef{}
+.footer-left-menu{}
+#f-nav{
+    margin:0;
+	padding:0;
+	list-style:none;
+}
+#f-nav li{
+    float:left;
+	background:url(images/f-menu_separator-1.png) no-repeat scroll right center;
+	margin-top:10px;
+}
+#f-nav li:first-child{
+    padding:0px;
+}
+#f-nav li:last-child{
+    background:none;
+}
+#f-nav li a{
+    text-decoration:none;
+	color:#666666;
+	padding:12px ;
+	font-size:12px;
+}
+#f-nav li a:hover,.current_page_item{
+    color:#0099ff;
+	-webkit-transition: all 0.6s 0s ease;
+	-moz-transition: all 0.6s 0s ease;
+	-o-transition: all 0.6s 0s ease;
+	-ms-transition: all 0.6s 0s ease;
+	transition: all 0.6s 0s ease;
+}
+.footer-left-copyright{
+    margin-top: 15px;
+	margin-left:4px;
+}
+.footer-left-copyright p{
+    font-size:12px;
+    color:#939393;
+    line-height:25px;
+}
+.footer-left-copyright p span{
+    font-family: 'Droid Sans', sans-serif;
+	color:#029DF6;
+}
+.footer-right {
+}
+.footer-right-logo{
+    margin-top:14px;
+}
+.footer-right-logo img{}
+.prev{
+    width:14px;
+    height:24px;
+    left:300px;
+    bottom:10px;
+}
+.about_us_area{
+	background: #ccc;
+	padding: 60px 0px;}
+.abou_us{}
+.heading{}
+.heading h1,.heading h5{
+    color:#000;
+	text-align:center;
+}
+.heading p{color:#000;padding:10px;}
+.text-center{
+    text-align: center;
+}
